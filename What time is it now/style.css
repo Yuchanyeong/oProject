@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin : 0;
+}
+.header{
+  padding: 3px 0;
+  border-bottom : 2px solid;
+  display: flex;
+}
+.header_logo{
+  width: 30px;
+  height: 30px;
+  margin:10px 10px 10px 20px;
+}
+
+.header_nav{
+  margin-left: auto;
+}
+
+.header a{
+  font-family: "Bebas Neue", sans-serif;
+  padding : 0 10px ;
+  margin :  0 10px 0 0; 
+  text-decoration: none;
+  line-height: 50px;
+  color: #000000;
+}
+
+.main_img{
+  display: block;
+  margin : 50px auto;
+}
